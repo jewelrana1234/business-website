@@ -1,0 +1,357 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#main{
+    width: 100%;
+    height: 300vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: #9b9a95;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    height: 40px;
+    padding: 10px 17px;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: flex;
+    line-height: 50px;
+    color: #ffffff;
+}
+nav ul li a:active{
+    color: #ff0000;
+}
+nav .logo{
+    font-weight: 100;
+    font-size: 20px;
+    font-style: italic;
+    color: #ffffff;
+}
+
+
+#coll{
+    width: 100%;
+    height: 70vh;
+    background: #9b9a95;
+    overflow: hidden;
+}
+.content-of{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.content-of h1{
+    font-size: 40px;
+    color: #ffffff;
+}
+.content-of p{
+    width: 500px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+.content-of a{
+    text-transform: uppercase;
+    background: #4ecb8c;
+    padding: 10px 5px;
+    color: #ffffff;
+   font-size: 10px;
+   border-radius: 5px;
+}
+.content-of a:active{
+    color: red;
+}
+
+
+
+#rana{
+    width: 100%;
+    height: 70vh;
+    background: #ffffff;
+    overflow: hidden;
+}
+.heading-one-of-danger h2{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 600;
+}
+.row{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 250px;
+}
+.column{
+    width: 200px;
+    border: 1px solid #ecebeb;
+    padding: 0px 10px;
+}
+
+
+
+#Short-story{
+    width: 100%;
+    height: 80vh;
+    background: #e9ebea;
+    overflow: hidden;
+}
+.heading-two-of h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: right;
+    margin-top: 100px;
+    font-weight: 400;
+    margin-right: 350px;
+}
+.pagagraph{
+    width: 400px;
+    margin-left: 800px;
+}
+.pagagraph button{
+    padding: 15px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+
+
+#client-box{
+    width: 100%;
+    height: 150vh;
+    background: #ffffff;
+}
+.client-heading h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    font-weight: 300;
+}
+.row-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+}
+.column-1{
+    width: 40%;
+    height: 220px;
+    background: cornsilk;
+}
+.column-1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+.column-1 h2{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 110px;
+    font-weight: 400;
+}
+.column-1 p{
+    width: 500px;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.row-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+    
+}
+.column-2{
+    width: 40%;
+    height: 200px;
+    background: cornsilk;
+}
+.column-2 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+.column-2 h2{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 110px;
+    font-weight: 400;
+}
+.column-2 p{
+    width: 500px;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+#Experience{
+    width: 100%;
+    height: 80vh;
+    background: #353535;
+    color: #ffffff;
+   
+}
+.skill-progress-bar{
+    display: flex;
+    margin-left: 300px;
+    justify-content: ;
+    align-items: center;
+}
+.our-experience{
+    width: 40%;
+    margin-top: 30px;
+}
+.our-experience h2{
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.our-experience p{
+    width: 400px;
+    font-size: 13px;
+    text-align: justify;
+}
+.our-experience a{
+    border: 2px solid #ffffff;
+    margin-top: 500px;
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.skill-section{
+    margin-left: 100px;
+}
+.skill-heading h2{
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 80px;
+}
+.progress-bar ul li progress{
+    padding: 20px 200px;
+}
+
+
+
+#blog-section{
+    width: 100%;
+    height: 90vh;
+    background: #ffffff;
+}
+.blog-heading h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+.row-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.column-3{
+    width: 300px;
+    height: 300px;
+}
+.column-3 img{
+    width: 300px;
+    height: 200px;
+}
+.column-3 h2{
+    text-transform: capitalize;
+}
+.column-3 p{
+    text-align: justify;
+}
+
+
+
+#are-you-ready{
+    width: 100%;
+    height: 30vh;
+    background: #36c36e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.are-you-ready-header{
+    margin-left: 200px;
+}
+.are-you-ready-header h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 400;
+}
+.are-you-ready-header p{
+    font-size: 13px;
+    color: #ffffff;
+}
+.btn-of{
+    margin-right: 200px;
+}
+.btn-of a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    border: 2px solid #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+#footer-section{
+    width: 100%;
+    height: 50vh;
+    background: #232323;
+    color: #ffffff;
+}
+.row-4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.column-4{
+    margin-top: 100px;
+}
+.column-4 h4{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.company-name{
+    margin-top: 100px;
+}
+.company-name a span{
+    font-size: 26px;
+    color: #ffffff;
+    font-style: italic;
+}
